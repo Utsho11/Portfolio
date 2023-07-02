@@ -21,7 +21,7 @@ const Footer = () => {
                 <li><Link to="https://github.com/Utsho11"><FaGithub size={'30px'} style={{transition:'0.5s'}} className='hover:-translate-y-2 text-white'></FaGithub></Link></li>
             </ul>
             <ul className='social-icon'>
-                <li><Link to="/home" className='font-semibold hover:text-white'>Home</Link></li>
+                <li><Link to="/" className='font-semibold hover:text-white'>Home</Link></li>
                 <li><Link to="/about" className='font-semibold hover:text-white'>About</Link></li>
                 <li><Link to="/projects" className='font-semibold hover:text-white'>Projects</Link></li>
                 <li><Link to="/contact" className='font-semibold hover:text-white'>Contact</Link></li>
